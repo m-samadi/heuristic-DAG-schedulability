@@ -1,0 +1,25 @@
+tasks:
+- t: 8
+  d: 8
+  vertices:
+    - id: 0
+      c: 2
+      p: 1
+    - id: 1
+      c: 4
+      p: 2
+    - id: 2
+      c: 3
+      p: 3
+    - id: 3
+      c: 2
+      p: 4
+  edges:
+    - from: 0
+      to: 1
+    - from: 0
+      to: 2
+    - from: 1
+      to: 3
+    - from: 2
+      to: 3

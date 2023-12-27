@@ -1,0 +1,10 @@
+The changes in the parameters of the library:
+recDepth = 200
+For the normal graph, maxParBranches = 5
+For the wide graph, maxParBranches = 8
+
+DAG-scheduling\demo\main.cpp
+gp.configureParams(dagSched::GenerationType_t::VARYING_U);
+
+DAG-scheduling\include\dagSched\GeneratorParams.h
+DeadlinesType_t dtype   = DeadlinesType_t::CONSTRAINED;
