@@ -1,5 +1,5 @@
  #**************************************************************************
- # simulation.py
+ # main.py
  #
  # This simulator performs the mapping process of tasks on threads in
  # OpenMP-based programs using several algorithms.
